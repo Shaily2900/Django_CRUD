@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CRUD - OPERATION SYSTEM</title>
+<link rel="stylesheet" href="{% static 'myapp/css/bootstrap.min.css' %}"></link>
+</head>
+<body>
+    <div class="container mt-5">
+        <h2 class="text-center alert alert-danger">CRUD Project</h2>
+        {% block content %} {% endblock content %} 
+    </div>
+    <script src="{% static 'myapp/js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'myapp/js/jquery.js' %}"></script>
+    <script src="{% static 'myapp/js/popper.js' %}"></script>
+</body>
+</html> 
